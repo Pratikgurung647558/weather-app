@@ -36,4 +36,51 @@ body{
 }
 .card{
     background: linear-gradient(90deg, rgba(12, 108, 18, 0.8) 0%, rgba(255, 255, 255, 0.5) 100%);
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5 rem ;
+    margin: 0px;
+    margin-bottom: 25px;
+
+}
+p{
+    font-size: 2rem;
+    margin: 5px 0px;
+}
+
+.cityDisplay,.tempDisplay{
+    display: flex;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+    align-items: center;
+}
+.humidityDisplay{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+.descDisplay{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.emojiWeather{
+    font-size: 6rem;
+    margin: 0%;
+}
+.errorDisplay{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
 }
